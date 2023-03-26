@@ -58,7 +58,7 @@ const App = () => {
             {/* <Text style={styles.heartRateText}>{heartRate} mv</Text> */}
             <LineChart
             data={{
-              labels: ['Test'], 
+              labels: ['Seconds'], 
               datasets: [{
                 data: data,
                 color: (opacity = 1) => `rgba(0, 0, 255, ${opacity})` // set line color
